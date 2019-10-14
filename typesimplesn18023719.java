@@ -1,3 +1,13 @@
+/*Ecrire un programme principal qui rÃ©alise la saisie et lâ€™affichage de plusieurs variables de types diffÃ©rents :
+
+une chaine de caractÃ¨res ;
+un entier,
+un rÃ©el
+un caractÃ¨re,
+un boolÃ©en
+ [main, type int, float, String, caractÃ¨re, boolÃ©en, Date et affichage de chacun des types]
+
+(estimation : faisable en 23 lignes de code utiles) */
 import java.util.Scanner;
 public class typesimplesn18023719 {
 
@@ -5,10 +15,10 @@ public class typesimplesn18023719 {
 		//initialisation du scanner
 		Scanner sc = new Scanner(System.in);
 		//saisie  affichage d'une chaine caractere
-		String s; //non initialisée;
-		System.out.println("Merci de saisir la chaine de caractère");
+		String s; //non initialisÃ©e;
+		System.out.println("Merci de saisir la chaine de caractÃ¨re");
 		s = sc.next(); // seulement un mot il s'arrete au premier espace
-		System.out.println("La chaine de cararctère est" + s);
+		System.out.println("La chaine de cararctÃ¨re est" + s);
 		
 		
 		//saisie et affichage d'un entier
@@ -17,38 +27,28 @@ public class typesimplesn18023719 {
 		i = sc.nextInt();
 		System.out.println("L'entier saisir est: " + i);
 		
-		//saisie et affichage d'un réel
+		//saisie et affichage d'un rÃ©el
 		float n;
-		System.out.println("Saisir un nombre réel:");
+		System.out.println("Saisir un nombre rÃ©el:");
 		n = sc.nextFloat();
-		System.out.println("le nombre réel est:" + n );
+		System.out.println("le nombre rÃ©el est:" + n );
 		
-		//saisie une caractère
+		//saisie une caractÃ¨re
 		char c;
 		String s2;
-		System.out.println("Saisir votre caractère:");
+		System.out.println("Saisir votre caractÃ¨re:");
 		s2 = sc.next();
-		c = s2.charAt(0); //charAT retourne la cqractère situé à l'
-		System.out.println("La valeur de caractère ets: " + c);
+		c = s2.charAt(0); //charAT retourne la cqractÃ¨re situÃ© Ã  l'
+		System.out.println("La valeur de caractÃ¨re ets: " + c);
 		
 		
-		//saisie affichage d'unr booléen
+		//saisie affichage d'unr boolÃ©en
 		boolean bb;
-		System.out.println("Saisir un booléen: ");
+		System.out.println("Saisir un boolÃ©en: ");
 		bb = sc.nextBoolean();
 		System.out.println("Valeur de ");
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+	
 
 	}
 
